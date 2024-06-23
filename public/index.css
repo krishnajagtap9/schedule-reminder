@@ -1,0 +1,294 @@
+.main{
+    height:100vh ;
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+  
+
+
+}
+.main_before{
+    height: 90vh;
+    width: 50%;
+    background-image: url(./images/work2.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+    
+}
+
+    
+
+body {
+    margin: 0;
+    padding: 0;
+ overflow-x: hidden;
+  }
+
+
+  span{
+    height: 50px;
+    width: 98%;
+    border: 4px solid white;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.374); */
+    /* position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 10px; */
+    margin-bottom: 5%;
+color: black;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    height:100%;
+    align-items: center;
+   list-style: none;
+   margin:1% ;
+   font-size: 22px;
+   font-weight: 500;
+margin-left: 20%;
+}
+ul a:hover {
+width: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.408);
+height: 100%;
+transition: 1ms;
+transform: scale(1.02);
+text-decoration: none;
+}
+ul a {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 100%;
+text-decoration: none;
+
+    }
+  #main_logo{
+    font-size: 45px;
+    margin-left: 3%;
+  }
+
+.both_content{
+    height: 90vh;
+   width: 100%;
+ 
+
+  
+}
+.left_div{
+    height: 90vh;
+    width: 50%;
+    background-color: white;
+    /* position: absolute;
+    top: 15%;
+right: 0%; */
+    background-color:transparent;
+    color: black;
+    margin-left: 50%;
+    margin-top:-40%;
+   
+}
+.typing-animation {
+    overflow: hidden;
+  white-space: nowrap;
+    font-size: 27px;
+    animation: typing 5s steps(100, end), blink-caret .5s step-end infinite;
+  }
+
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  
+  #text_images{
+    height: 70%;
+    width: 50%;
+    background-image: url(./images/question-mark-1019993_640.webp);
+background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+animation: opacity_manage ease forwards 3s 1;
+display: none;
+}
+ #text_images2{
+  height: 70%;
+  width: 50%;
+/* position: absolute;
+top:22%;
+left: 50%; */
+background-image: url(./images/business-background-sketch-vector-doodle-260nw-2331059149.webp);
+  background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+animation: opacity_manage ease forwards 3s 1;
+display: none;
+}
+.img_box{
+  height: 70%;
+  width: 100%;
+  display: flex;
+}
+@keyframes  opacity_manage {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
+@media (max-width: 768px) {
+.main{
+  border: none;
+}
+  span {
+    height: 35%;
+    width: 98%;
+    justify-content: center;
+    display: flex;
+      flex-direction: column; /* Stack elements vertically */
+      align-items: flex-start; /* Align items to the left */
+  }
+ul a{
+ height: 0%; 
+}
+  ul{
+    gap: 10%;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 80%;
+    height: 70%;
+    margin-left: 0%;
+  }
+  #main_logo {
+      margin-bottom: 10px;
+  }
+
+  h1 {
+      margin-left: 0;
+      text-align: center; /* Center align title */
+  }
+
+  nav {
+      width: 100%; /* Full width */
+  }
+
+  nav ul {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center align items */
+      margin-top: -50%;
+  }
+
+  nav ul li {
+      margin: 10px 0;
+  }
+li{
+  border: 2px solid black;
+width:100% ;
+
+font-size:28px ;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 5px 5px 5px black,
+            5px 5px 10px white inset;
+color: black;
+}
+
+.div_1{
+  margin-bottom: 0px;
+}
+
+  /* nav bar css end */
+  .left_div{
+    height: 80vh;
+    width: 99vw;
+    margin-left: 3%;
+    margin-top: 0%;
+    
+
+  }
+  .both_content{
+    display: flex;
+    flex-direction: column;
+    height:100vh ;
+    width: 100%;
+   align-items: flex-start;
+   border: none;
+  }
+ 
+  .main_before{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+align-items: flex-start;
+  }
+
+  .img_box{
+    height: 42%;
+    width: 100%;
+    display: flex;
+  }
+
+
+  .typing-animation {
+    overflow: hidden;
+  
+    font-size: 27px;
+    animation: typing 5s steps(100, end), blink-caret .5s step-end infinite,INCREASE  forwards  5s 1 steps(500, end);
+  }
+@keyframes INCREASE {
+  0%{
+ white-space: nowrap;
+  }
+  99%{
+ white-space: nowrap;
+
+  }
+  100%{
+white-space: none;
+  }
+}
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+  
+
+}
+
+.div_1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
